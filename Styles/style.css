@@ -1,0 +1,222 @@
+body {
+		
+	/* Full height */
+	height: 100%; 
+
+
+	/*background-image: url("http://www.ellisdon.com/wp-content/uploads/2016/02/single_column_figure@2x-11.jpg");*/
+	/* Center and scale the image nicely */
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+	}
+
+
+
+/* change the background color */
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+/* change the color of active or hovered links */
+
+.
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
+	.navbar-default {
+   
+    border-color: white;
+}
+.nav-link:hover{
+	color:black;
+}
+	.navbar-brand:hover{
+		color: black;
+	}
+
+	#message{
+		color: red;
+	}
+	
+* {box-sizing: border-box}
+		h1{
+			text-align: center;
+		}
+		
+		#page1{
+			display: block;
+		}
+		#page2{
+			display: none;
+		}
+		
+	.form-container{
+    
+    margin-bottom: 5%;
+}
+.spinner{
+	width:  3rem; 
+	height: 3rem;
+}
+.form{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+}
+.center-btn:not(label){
+	text-align: center;
+}
+.form-container h1{
+    text-align: center;
+    color:#333;
+}
+
+ .form .link{
+	
+     color: #0062cc;
+    font-weight: 600;
+    
+   
+}
+.register{
+	padding: 8px 8px 8px 8px;
+}
+
+.Admin{
+	margin:0 auto;
+	text-align: center;
+}
+.patients{
+	text-align: center;
+	margin:0 auto;
+}
+.patients_table{
+
+}
+.subbtn{
+	background-color: #232323;
+	border: none;
+		outline:none;
+		border-radius: 4px;
+		
+	color: white;
+
+	padding: 12px 12px;
+}
+.sub{
+	width:50%;
+}
+.subbtn:hover{
+	background-color: #7B7B74;
+}
+
+/*
+Table styling from 
+https://divtable.com/table-styler/
+
+*/
+table.patients_table {
+  border: 1px solid #A4A4A4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.patients_table td, table.patients_table th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+   color: #FFFFFF;
+}
+table.patients_table tbody td {
+  font-size: 13px;
+}
+table.patients_table tr:nth-child(even) {
+  background: #6C6A69;
+}
+table.patients_table thead {
+  background: #2C2D2B;
+  background: -moz-linear-gradient(top, #616160 0%, #414240 66%, #2C2D2B 100%);
+  background: -webkit-linear-gradient(top, #616160 0%, #414240 66%, #2C2D2B 100%);
+  background: linear-gradient(to bottom, #616160 0%, #414240 66%, #2C2D2B 100%);
+  border-bottom: 2px solid #C4C4C4;
+}
+table.patients_table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  
+}
+table.patients_table thead th:first-child {
+  border-left: none;
+}
+
+
+table.patients_table  td {
+  font-size: 14px;
+}
+
+
+
+
+.fc-day:hover{
+	background-color: rgba(76, 76, 76, 0.52);
+}
+.highlightcell{
+    background-color: rgba(76, 76, 76, 0.52);
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+
+.darken-grey-text {
+
+}
+
+.topnav .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+	background-color: #333;
+	margin: 0 auto;	
+  width: 100%;
+  display: block;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li a, .topnav a {
+	float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav li a:hover {
+  background-color: #111;
+}
+.darken-grey-text {
+
+}
+
+
